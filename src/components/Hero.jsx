@@ -1,9 +1,9 @@
 import React from "react";
+import 'animate.css';
 
 import {
   RiCheckboxBlankCircleFill,
   RiPlayFill,
-  RiStarFill,
 } from "react-icons/ri";
 
 const Hero = () => {
@@ -12,9 +12,9 @@ const Hero = () => {
       {/* Information */}
       <div className="md:col-span-5 flex items-center justify-center p-8 xl:p-16">
         <div className="flex flex-col gap-8">
-          <h1 className="text-5xl xl:text-7xl font-bold xl:leading-[7.5rem]">
-            My names is Nestor Sandoval 
-            <span className="text-primary py-2 px-6 border-8 border-primary relative inline-block">
+          <h1 className="animate__animated animate__zoomInDown text-6xl xl:text-7xl font-bold xl:leading-[7.5rem] ">
+            Lic.Nestor Sandoval
+            <span className=" text-primary py-3 px-2 border-8 border-primary relative inline-block text-5xl ">
                Egresado
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
@@ -22,7 +22,7 @@ const Hero = () => {
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
             </span>
           </h1>
-          <p className="text-gray-500 text-2xl leading-[2.5rem] justify-center">
+          <p className="animate__animated animate__zoomIn text-gray-500 text-2xl leading-[2.5rem] justify-center">
           Egresado de Tecnologías de Información, con gran interés en acceder al mercado laboral para poner en práctica mis conocimientos. 
           Soy una persona trabajadora, comunicativa y comprometida. 
           Desearía encontrar una oportunidad para adquirir más experiencia profesional

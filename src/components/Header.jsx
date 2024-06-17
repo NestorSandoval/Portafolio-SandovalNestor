@@ -34,7 +34,7 @@ return (
             Contact
         </a>
     </nav>
-    <button onClick={()=> setShowMenu(!showMenu)} className=" xl:hidden text-2xl p-2">
+    <button  onClick={()=> setShowMenu(!showMenu)}  className=" xl:hidden text-2xl p-2">
         {showMenu ? <RiCloseLine/> : <RiMenu3Fill/>}
         </button>
     </header>
