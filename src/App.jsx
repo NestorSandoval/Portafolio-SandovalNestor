@@ -1,31 +1,28 @@
 import Footer from "./components/Footer";
-import { Header } from "./components/Header";
-import Hero from "./components/Hero";
 import Prueba from "./components/Prueba";
-/* import Reviews from "./components/Reviews"; */
-import { BrowserRouter , Route ,Routes } from "react-router-dom";
-import Reviews from "./components/Reviews";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Probando from "./components/Probando";
+import Start from "./pages/Start";
+import Header from "./components/Header";
 
 function App() {
-
   return (
     <>
-    <div>
-      <BrowserRouter>
-          <Header/>
-
+      <div>
+        <BrowserRouter>
+        <Header/>
           <Routes>
-            <Route path="/" 
-            element={<Hero/>}></Route>
-            
-            <Route path="/Prueba" element={<Prueba/>}></Route>
+            <Route path="/" element={<Start/>}></Route>
+            <Route path="/Prueba" element={<Prueba />}></Route>
+            <Route path="/Probando" element={<Probando />}></Route>
+            <Route path="/Prueba" element={<Prueba />}></Route>
+            <Route path="/Prueba" element={<Prueba />}></Route>
           </Routes>
-      </BrowserRouter>
-
-    </div>
+          <Footer />
+        </BrowserRouter>
+      </div>
     </>
-  )
+  );
 }
 
 export default App;

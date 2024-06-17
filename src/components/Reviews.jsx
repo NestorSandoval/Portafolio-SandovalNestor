@@ -1,5 +1,3 @@
-import React from "react";
-// Iconos
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 const Reviews = () => {

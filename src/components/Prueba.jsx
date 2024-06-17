@@ -1,9 +1,6 @@
-import React from 'react'
 
 const Prueba = () => {
-  return (
-    <div>Prueba</div>
-  )
-}
+  return <div className="min-h-screen">Prueba</div>;
+};
 
-export default Prueba
+export default Prueba;

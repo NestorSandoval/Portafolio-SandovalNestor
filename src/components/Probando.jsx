@@ -1,13 +1,6 @@
-import React from 'react'
-import { MagicMotion } from "react-magic-motion";
-
 
 const Probando = () => {
-  return (
-    <MagicMotion>
-    <div>Probando</div>
-    </MagicMotion>
-  )
-}
+  return <div className="min-h-screen justify-center">probando Hola mundo</div>;
+};
 
-export default Probando
+export default Probando;
