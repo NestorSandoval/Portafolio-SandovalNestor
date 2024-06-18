@@ -34,13 +34,13 @@ const Footer = () => {
         </h3>
         <nav className="mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <Link
-            to="#"
+            to="/"
             className="text-gray-300 mt-4 hover:text-white transition-colors"
           >
             Sobre mi
           </Link>
           <Link
-            to="#"
+            to="https://nestorsandoval.hatch.one/portafoliosandovalnestor"
             className="text-gray-300 mt-4 hover:text-white transition-color"
           >
             Proyectos
@@ -56,7 +56,7 @@ const Footer = () => {
             type="button"
             className="font-semibold py-2 px-5 bg-primary text-white rounded-xl"
           >
-            Contact Us
+            <a href="https://github.com/NestorSandoval">Contacto</a> 
           </button>
         </nav>
       </div>

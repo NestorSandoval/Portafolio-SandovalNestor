@@ -1,5 +1,4 @@
 import React from "react";
-//Icons
 import {
   RiCheckboxBlankCircleFill,
   RiMenu3Fill,

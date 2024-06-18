@@ -10,7 +10,7 @@ const Reviews = () => {
         <span className="text-5xl text-primary">
           <RiDoubleQuotesL />
         </span>
-        <p className="max-w-2xl text-center text-gray-500">
+        <p className="animate__animated animate__zoomIn max-w-2xl text-center text-gray-500">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel
           lobortis tincidunt fames quisque mauris at diam. Nullam morbi ipsum
           turpis amet id posuere torto quis nostrud exercitation ullamco laboris

@@ -1,3 +1,4 @@
+import Cards from "../components/Cards";
 import Hero from "../components/Hero";
 import Reviews from "../components/Reviews";
 
@@ -6,6 +7,7 @@ const Start = () => {
     <>
       <Hero />
       <Reviews />
+      <Cards/>
     </>
   );
 };
