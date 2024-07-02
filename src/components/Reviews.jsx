@@ -2,20 +2,24 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 const Reviews = () => {
   return (
-    <div className="p-8 flex flex-col gap-8 bg-gray-100">
-      <h1 className="text-[40px] text-center font-black">
+    <div className="p-10 flex flex-col gap-8 bg-gray-100">
+      <h1 className="text-[30px] text-center font-black">
         DESARROLLADOR DE SOFTWARE
       </h1>
       <div className="flex justify-center gap-4">
         <span className="text-5xl text-primary">
           <RiDoubleQuotesL />
         </span>
-        <p className="animate__animated animate__zoomIn max-w-2xl text-center text-gray-500">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel
-          lobortis tincidunt fames quisque mauris at diam. Nullam morbi ipsum
-          turpis amet id posuere torto quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore.
+        <p className="animate__animated animate__zoomIn max-w-2xl text-justify text-gray-500">
+          Hasta el momento he desarrollado proyectos estudiantiles, siendo líder
+          del equipo al momento de programar, he dedicado tiempo a estudiar y
+          practicar por mi cuenta. He completado cursos en línea y proyectos
+          personales para familiarizarme con conceptos como programación, bases
+          de datos, diseño de interfaces y desarrollo web. Mi enfoque principal
+          ha sido aprender lenguajes de programación como Java Script, REACT,
+          ANGULAR y C#, así como tecnologías relacionadas como HTML, CSS y SQL
+          Server, estoy comprometido con seguir aprendiendo y adquirir más
+          experiencia con la práctica en este emocionante campo.
         </p>
         <span className="text-5xl text-primary">
           <RiDoubleQuotesR />
@@ -47,7 +51,7 @@ const Reviews = () => {
         <div>
           <h3 className="text-center text-[24px] font-bold">SKILLS</h3>
           <h5 className="text-center text-[20px] text-gray-500">
-            EN PRACTICA
+            EN DESARROLLO
           </h5>
         </div>
       </div>

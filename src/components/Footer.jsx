@@ -3,17 +3,18 @@ import { RiInstagramLine, RiGithubLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className="bg-footer p-8 xl:p-20">
+    <footer className="bg-black p-8 md:p-20">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-primary pb-8">
         {/* Logo */}
         <div className="w-1/4">
           <Link
-            to="#"
-            className="text-xl font-bold relative bg-footer text-black"
+            to="/"
+            className="text-xl font-bold relative text-white"
           >
             Portafolio<span className="text-primary text-5xl">.</span>{" "}
           </Link>
         </div>
+
         {/* Social media */}
         <nav className="flex items-center gap-4">
           <Link to="#" className="block text-white p-4 bg-primary rounded-full">
@@ -28,6 +29,7 @@ const Footer = () => {
         </nav>
       </div>
 
+      {/* DATOS PERSONALES */}
       <div className="mt-8">
         <h3 className="text-lg font-bold text-white text-center md:text-left">
           Datos Personales
@@ -49,7 +51,7 @@ const Footer = () => {
             to="#"
             className="text-gray-300 mt-4 hover:text-white transition-color"
           >
-            Experencia laboral
+            Servicios
           </Link>
 
           <button

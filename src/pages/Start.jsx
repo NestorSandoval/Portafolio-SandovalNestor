@@ -1,13 +1,15 @@
-import Cards from "../components/Cards";
 import Hero from "../components/Hero";
 import Reviews from "../components/Reviews";
+import Trabajo from "../components/Trabajo";
+import Certificados from "../components/Certificados"
 
 const Start = () => {
   return (
     <>
       <Hero />
       <Reviews />
-      <Cards/>
+      <Trabajo/>
+      <Certificados/>
     </>
   );
 };
