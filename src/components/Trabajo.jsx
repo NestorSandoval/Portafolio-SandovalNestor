@@ -66,22 +66,6 @@ const Trabajo = () => {
               <Button size="small">GitHub</Button>
             </CardActions>
           </Card>
-
-          {/* Imagene 3 */}
-          <Card>
-            <CardMedia component="img" image="PROYECTO-PAGINACREAR.png" />
-            <CardContent>
-              <Typography gutterBottom variant="h6">
-                CRUD CON PANTALLA TERMINAL Y .NET
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                JAVASCRIPT - C# - ANGULAR
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small">GitHub</Button>
-            </CardActions>
-          </Card>
         </div>
       </div>
     </div>
