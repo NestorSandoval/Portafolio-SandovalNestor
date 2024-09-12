@@ -6,12 +6,10 @@ import {
 } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-/* HEADER PRINCIPAL */
-
 export const Header = () => {
   const [showMenu, setShowMenu] = React.useState(false);
   return (
-    <header className="flex items-center justify-between md:justify-start w-full py-4 px-8 h-[10vh]">
+    <header className="fixed top-0 left-0 flex items-center justify-between md:justify-start w-full px-8 h-[11vh] bg-white shadow-lg z-50 ">
       <div className="xk:w-1/6 text-center -mt-6">
         <a href="#" className="text-2xl font-bold relative p-1 bg-white">
           Portafolio<span className="text-primary text-5xl">.</span>{" "}
@@ -24,14 +22,38 @@ export const Header = () => {
         } 
     top-0 md:static flex-1 flex flex-col md:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
-        <Link to="/" className="">
+        <Link
+          to="#home"
+          onClick={(e) => {
+            e.preventDefault();
+            document
+              .querySelector("#home")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
           Inicio
         </Link>
-        <Link to="#" className="">
+        <Link
+          to="#projects"
+          onClick={(e) => {
+            e.preventDefault();
+            document
+              .querySelector("#projects")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
           Proyectos
         </Link>
-        <Link to="" className="">
-          Contacto
+        <Link
+          to="#certificates"
+          onClick={(e) => {
+            e.preventDefault();
+            document
+              .querySelector("#certificates")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Certificados
         </Link>
       </nav>
       <button

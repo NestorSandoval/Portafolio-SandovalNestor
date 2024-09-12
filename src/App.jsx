@@ -3,16 +3,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Start from "./pages/Start";
 import Header from "./components/Header";
 
-
 function App() {
   return (
     <>
       <div>
         <BrowserRouter>
-        <Header/>
+          <Header />
           <Routes>
-            {/* Routes unidas */}
-            <Route path="/" element={<Start/>}></Route>
+            <Route path="/" element={<Start />}></Route>
           </Routes>
           <Footer />
         </BrowserRouter>

@@ -1,15 +1,15 @@
 import Hero from "../components/Hero";
 import Reviews from "../components/Reviews";
-import Trabajo from "../components/Trabajo";
-import Certificados from "../components/Certificados"
+import Projects from "../components/Projects";
+import Certificates from "../components/Certificates";
 
 const Start = () => {
   return (
     <>
       <Hero />
       <Reviews />
-      <Trabajo/>
-      <Certificados/>
+      <Projects />
+      <Certificates />
     </>
   );
 };

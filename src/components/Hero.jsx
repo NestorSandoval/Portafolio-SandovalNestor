@@ -1,17 +1,16 @@
 import "animate.css";
 
-import { RiCheckboxBlankCircleFill, RiPlayFill } from "react-icons/ri";
+import { RiCheckboxBlankCircleFill } from "react-icons/ri";
 import { AiFillFilePdf } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-[90vh] grid grid-cols-1 md:grid-cols-8">
-      {/* Information */}
+    <section id="home" className="mt-32 grid grid-cols-1 md:grid-cols-8">
       <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16">
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-10">
           <h1 className="animate__animated animate__zoomInDown text-6xl md:text-7xl font-bold md:leading-[7.5rem] ">
             Lic.Nestor Sandoval
-            <span className=" text-primary py-3 px-2 border-8 border-primary relative inline-block text-5xl ">
+            <span className="mt-5 text-primary py-3 px-2 border-8 border-primary relative inline-block text-5xl">
               Egresado
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
@@ -19,7 +18,7 @@ const Hero = () => {
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
             </span>
           </h1>
-          <p className="animate__animated animate__zoomIn text-gray-500 text-2xl leading-[2.5rem] justify-center text-justify">
+          <p className="animate__animated animate__zoomIn text-gray-500 text-2xl leading-[2.5rem]">
             Egresado de Tecnologías de Información, con gran interés en acceder
             al mercado laboral para poner en práctica mis conocimientos. Soy una
             persona trabajadora, comunicativa y comprometida. Desearía encontrar
@@ -30,22 +29,19 @@ const Hero = () => {
               <a href="https://wa.link/o8ovzm">Contactame</a>
             </button>
             <button className="w-full md:w-auto flex items-center justify-start text-left gap-4 py-2 px-8 rounded-xl text-xl">
-              <AiFillFilePdf className="bg-black text-white p-4 rounded-full box-content" />{" "}
-              {/*     <a
+              <AiFillFilePdf className="bg-black text-white p-4 rounded-full box-content" />
+              <a
                 href="/CV Sandoval Nestor.pdf"
                 download
                 className="font-bold text-black"
               >
                 Curriculum vitae
-  </a> */}
+              </a>
             </button>
           </div>
         </div>
       </div>
-      {/* Image */}
       <div className="md:col-span-3 flex items-center justify-center relative">
-        {/* Content image */}
-
         <div>
           <img
             src="LogoP2.png"
@@ -66,7 +62,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* Circle */}
         <div
           className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[280px] 
         h-[280px] md:w-[380px] md:h-[380px] bg-white border-[10px] border-primary rounded-full -z-10"

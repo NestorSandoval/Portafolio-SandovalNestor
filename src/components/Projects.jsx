@@ -6,17 +6,15 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const Trabajo = () => {
+const Projects = () => {
   return (
-    <div>
-      <h1 className="text-[30px] text-center font-black p-1 py-10">
-        PROYECTOS
-      </h1>
-      <div className="flex items-center justify-center min-h-screen container mx-auto">
-        <div className="animate__animated animate__zoomInUp grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
-          {/* Contenedor de las dos imagenes */}
+    <section id="projects">
+      <div className="text-[30px] text-center font-black py-10 mt-12  ">
+        <h1>PROYECTOS</h1>
+      </div>
+      <div className="flex items-center justify-center container mx-auto">
+        <div className="animate__animated animate__zoomInUp grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
           <Card className="">
-            {/* Imagen 1 */}
             <CardMedia
               className=""
               component="img"
@@ -35,7 +33,6 @@ const Trabajo = () => {
             </CardActions>
           </Card>
 
-          {/* Imagene 2 */}
           <Card>
             <CardMedia component="img" image="PROYECTO-SNAKE.png" />
             <CardContent>
@@ -51,7 +48,6 @@ const Trabajo = () => {
             </CardActions>
           </Card>
 
-          {/* Imagene 3 */}
           <Card>
             <CardMedia component="img" image="PROYECTO-PAGINACREAR.png" />
             <CardContent>
@@ -68,8 +64,8 @@ const Trabajo = () => {
           </Card>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Trabajo;
+export default Projects;
