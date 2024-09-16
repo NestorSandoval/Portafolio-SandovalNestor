@@ -2,7 +2,7 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 const Reviews = () => {
   return (
-    <section id="review">
+    <section id="review" className="pt-1">
       <div className="p-10 flex flex-col gap-8 bg-gray-100 mt-12">
         <h1 className="text-[30px] text-center font-black">
           DESARROLLADOR DE SOFTWARE

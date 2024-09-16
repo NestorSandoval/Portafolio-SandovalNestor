@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="pt-1">
       <div className="text-[30px] text-center font-black py-10 mt-12  ">
         <h1>PROYECTOS</h1>
       </div>
