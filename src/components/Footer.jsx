@@ -1,5 +1,5 @@
+import { RiGithubLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import { RiInstagramLine, RiGithubLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -33,13 +33,6 @@ const Footer = () => {
             className="text-gray-300 mt-4 hover:text-red-500 transition-colors"
           >
             Sobre mi
-          </Link>
-
-          <Link
-            to="#"
-            className="text-gray-300 mt-4 hover:text-red-500 transition-color"
-          >
-            Servicios
           </Link>
         </nav>
       </div>

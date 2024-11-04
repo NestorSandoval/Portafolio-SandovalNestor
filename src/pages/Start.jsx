@@ -1,7 +1,7 @@
-import Hero from "../components/Hero";
-import Reviews from "../components/Reviews";
-import Projects from "../components/Projects";
 import Certificates from "../components/Certificates";
+import Projects from "../components/Projects";
+import Reviews from "../components/Reviews";
+import Hero from "../components/Hero";
 
 const Start = () => {
   return (

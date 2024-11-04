@@ -1,5 +1,3 @@
-import React from "react";
-
 const Certificates = () => {
   return (
     <section id="certificates" className="pt-1">

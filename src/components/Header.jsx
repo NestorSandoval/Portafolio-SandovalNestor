@@ -20,7 +20,7 @@ export const Header = () => {
         className={`fixed font-bold bg-white w-[80%] x-[40%] md:justify-end md:w-full h-full ${
           showMenu ? "left-0" : "-left-full"
         } 
-    top-0 md:static flex-1 flex flex-col md:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
+       top-0 md:static flex-1 flex flex-col md:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
         <Link
           to="#home"

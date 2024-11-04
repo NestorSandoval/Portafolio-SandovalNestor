@@ -52,7 +52,7 @@ const Reviews = () => {
           </div>
           <div>
             <h3 className="text-center text-[20px] font-bold text-red-800">
-              - skills en desarrollo -
+              - HABILIDADES -
             </h3>
           </div>
         </div>
