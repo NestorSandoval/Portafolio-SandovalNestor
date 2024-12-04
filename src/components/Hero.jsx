@@ -5,7 +5,7 @@ import { AiFillFilePdf } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <section id="home" className="grid grid-cols-1 md:grid-cols-8 pt-1 mt-3">
+    <section id="home" className="grid grid-cols-1 md:grid-cols-8 pt-1 mt-36">
       <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16">
         <div className="flex flex-col gap-10">
           <h1 className="text-6xl md:text-7xl font-bold md:leading-[7.5rem] ">

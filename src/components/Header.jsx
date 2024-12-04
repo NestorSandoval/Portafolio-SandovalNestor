@@ -9,7 +9,7 @@ import { useState } from "react";
 export const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="top-0 left-0 flex items-center justify-between md:justify-start w-full px-8 h-[11vh] bg-white shadow-lg z-50 ">
+    <header className="top-0 left-0 flex items-center justify-between md:justify-start w-full px-8 h-[80px] bg-white shadow-lg z-50 fixed">
       <div className="xk:w-1/6 text-center -mt-6">
         <a href="#" className="text-2xl font-bold relative p-1 bg-white">
           Portafolio<span className="text-primary text-5xl">.</span>{" "}
