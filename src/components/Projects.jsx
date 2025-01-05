@@ -47,7 +47,7 @@ export const Projects = () => {
           ref={titleRef}
           className="opacity-0 transition-all duration-1000 ease-out"
         >
-          PROYECTOS
+          PROYECTOS PERSONALES
         </h1>
       </div>
       <div className="flex items-center justify-center container mx-auto">
@@ -66,11 +66,12 @@ export const Projects = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button>
-                <Link to={"https://github.com/NestorSandoval/stay-ease"}>
-                  GITHUB
-                </Link>
-              </Button>
+              <Link
+                to={"https://github.com/NestorSandoval/stay-ease"}
+                target="_black"
+              >
+                <Button>GITHUB</Button>
+              </Link>
             </CardActions>
           </Card>
 
@@ -88,13 +89,12 @@ export const Projects = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button>
-                <Link
-                  to={"https://github.com/NestorSandoval/App-Farmacia-Forms"}
-                >
-                  GITHUB
-                </Link>
-              </Button>
+              <Link
+                to={"https://github.com/NestorSandoval/App-Farmacia-Forms"}
+                target="_black"
+              >
+                <Button>GITHUB</Button>
+              </Link>
             </CardActions>
           </Card>
 
@@ -105,7 +105,7 @@ export const Projects = () => {
             <CardMedia component="img" image="PROYECTO-PAGINACREAR.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
-                PAGINA WEB CREAR
+                PAGINA WEB CEAR
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 HTML - CSS - JAVASCRIPT
@@ -127,14 +127,46 @@ export const Projects = () => {
               </Typography>
             </CardContent>
             <CardActions>
+              <Link
+                to={"https://github.com/NestorSandoval/API-Pokemon"}
+                target="_black"
+              >
+                <Button>GITHUB</Button>
+              </Link>
               <Button>
-                <Link to={"https://github.com/NestorSandoval/API-Pokemon"}>
-                  GITHUB
+                <Link
+                  to={"https://api-pokemon-zeta.vercel.app/"}
+                  target="_black"
+                >
+                  Ver
                 </Link>
               </Button>
-              <Button>
-                <Link to={"https://api-pokemon-zeta.vercel.app/"}>Ver</Link>
-              </Button>
+            </CardActions>
+          </Card>
+
+          <Card
+            ref={(el) => (cardRefs.current[4] = el)}
+            className="opacity-0 transition-all duration-1000 ease-out"
+          >
+            <CardMedia component="img" image="MiniBlog.png" />
+            <CardContent>
+              <Typography gutterBottom variant="h6">
+                MINI BLOG
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                ASTRO - TYPESCRIPT - MDX
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link
+                to={"https://github.com/NestorSandoval/mini-blog"}
+                target="_black"
+              >
+                <Button>GITHUB</Button>
+              </Link>
+              <Link to={"https://mini-blog-iro2.vercel.app/"} target="_black">
+                <Button>Ver</Button>
+              </Link>
             </CardActions>
           </Card>
         </div>
