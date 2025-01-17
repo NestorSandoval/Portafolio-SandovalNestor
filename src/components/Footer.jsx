@@ -20,25 +20,6 @@ const Footer = () => {
           </Link>
         </nav>
       </div>
-
-      <div className=" mt-8">
-        <h3 className="text-lg font-bold text-white text-center md:text-left">
-          Datos Personales
-        </h3>
-      </div>
-      <div>
-        <nav className="mt-4 flex flex-col md:flex-row items-center gap-8">
-          <Link
-            to="/"
-            className="text-gray-300 mt-4 hover:text-red-500 transition-colors"
-          >
-            Sobre mi
-          </Link>
-        </nav>
-      </div>
-      <div className="flex text-center justify-center mt-20 text-gray-300 ">
-        <span>© Nestor Daniel Sandoval Garvalena</span>
-      </div>
     </footer>
   );
 };

@@ -23,6 +23,18 @@ export const Header = () => {
        top-0 md:static flex-1 flex flex-col md:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
         <Link
+          to="#skills"
+          onClick={(e) => {
+            e.preventDefault();
+            document
+              .querySelector("#skills")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Habilidades
+        </Link>
+
+        <Link
           to="#projects"
           onClick={(e) => {
             e.preventDefault();

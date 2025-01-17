@@ -42,7 +42,7 @@ export const Projects = () => {
 
   return (
     <section id="projects" className="pt-1">
-      <div className="text-[30px] text-center font-black py-10 mt-12">
+      <div className="text-[30px] text-center font-black py-10 mt-28">
         <h1
           ref={titleRef}
           className="opacity-0 transition-all duration-1000 ease-out"

@@ -31,11 +31,11 @@ const Hero = () => {
             <button className="w-full md:w-auto flex items-center justify-start text-left gap-4 py-2 px-8 rounded-xl text-xl">
               <AiFillFilePdf className="bg-black text-white p-4 rounded-full box-content" />
               <a
-                href="/CV Sandoval Nestor.pdf"
+                href="/NESTOR-SANDOVAL CV.pdf"
                 download
                 className="font-bold text-black"
               >
-                Curriculum vitae
+                Currículum vitae
               </a>
             </button>
           </div>
