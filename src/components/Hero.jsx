@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">
+            <h1 className="text-[40px] font-black sm:text-5xl md:text-6xl ">
               Nestor Sandoval
             </h1>
 
@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <p className="text-gray-500 text-lg sm:text-xl md:text-2xl leading-[2.5rem]">
+          <p className="text-gray-500 text-base sm:text-xl md:text-2xl leading-[2.5rem]">
             Soy un desarrollador Web apasionado por crear experiencias
             interactivas de alta calidad. Actualmente en búsqueda de una
             oportunidad profesional donde pueda aplicar mis conocimientos y
