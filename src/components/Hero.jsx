@@ -2,22 +2,28 @@ import "animate.css";
 
 import { RiCheckboxBlankCircleFill } from "react-icons/ri";
 import { AiFillFilePdf } from "react-icons/ai";
+import TrueFocus from "./design-components/TrueFocus";
 
 const Hero = () => {
   return (
     <section id="home" className="grid grid-cols-1 md:grid-cols-8 pt-1 mt-36">
       <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16">
         <div className="flex flex-col gap-10">
-          <h1 className="text-6xl md:text-7xl font-bold md:leading-[7.5rem] ">
-            Lic.Nestor Sandoval
-            <span className="mt-5 text-primary py-3 px-2 border-8 border-primary relative inline-block text-5xl">
-              Egresado
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
-            </span>
-          </h1>
+          <div className="flex items-center gap-2">
+            <h1 className="text-5xl font-extrabold">Nestor Sandoval</h1>
+
+            <div className="text-primary">
+              <TrueFocus
+                sentence="Desarrollador Web"
+                manualMode={false}
+                blurAmount={4}
+                borderColor="red"
+                animationDuration={1}
+                pauseBetweenAnimations={1}
+              />
+            </div>
+          </div>
+
           <p className="text-gray-500 text-2xl leading-[2.5rem]">
             Hola con gran interés en acceder al mercado laboral para poner en
             práctica mis conocimientos. Soy una persona trabajadora,
