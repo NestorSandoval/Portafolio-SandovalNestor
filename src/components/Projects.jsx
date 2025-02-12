@@ -135,7 +135,7 @@ export const Projects = () => {
                 POKE API
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                ASTRO - JAVASCRIPT
+                ASTRO - REACT - VUE - JAVASCRIPT
               </Typography>
             </CardContent>
             <CardActions>
@@ -161,7 +161,7 @@ export const Projects = () => {
             className="opacity-0 transition-all duration-1000 ease-out"
           >
             <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto terminado
+              Proyecto en proceso
             </div>
             <CardMedia component="img" image="MiniBlog.png" />
             <CardContent>
@@ -199,18 +199,15 @@ export const Projects = () => {
                 ISHOP DANECE
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                REACT - TYPESCRIPT - TAILWINDCSS
+                REACT - TYPESCRIPT
               </Typography>
             </CardContent>
             <CardActions>
               <Link
-                to={"https://github.com/NestorSandoval/mini-blog"}
+                to={"https://github.com/NestorSandoval/iShopDanEce"}
                 target="_black"
               >
                 <Button>GITHUB</Button>
-              </Link>
-              <Link to={"https://mini-blog-iro2.vercel.app/"} target="_black">
-                <Button>Ver</Button>
               </Link>
             </CardActions>
           </Card>
