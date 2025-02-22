@@ -51,9 +51,9 @@ const Skills = () => {
         <LogoWall
           items={logoImgs}
           direction="horizontal"
-          pauseOnHover={true}
+          pauseOnHover={false}
           size="clamp(8rem, 1rem + 20vmin, 25rem)"
-          duration="60s"
+          duration="20s"
           bgColor="#060606"
           bgAccentColor="#FFFF"
         />

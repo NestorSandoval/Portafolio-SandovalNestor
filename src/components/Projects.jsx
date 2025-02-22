@@ -193,21 +193,27 @@ export const Projects = () => {
               Proyecto en proceso
             </div>
 
-            <CardMedia component="img" image="PROYECTO-ISHOP.png" />
+            <CardMedia component="img" image="IshopDanImg.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
                 ISHOP DANECE
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                REACT - TYPESCRIPT
+                NEXTJS - TYPESCRIPT - TAILWIND CSS
               </Typography>
             </CardContent>
             <CardActions>
               <Link
-                to={"https://github.com/NestorSandoval/iShopDanEce"}
+                to={"https://github.com/NestorSandoval/iShopDanEceV2"}
                 target="_black"
               >
                 <Button>GITHUB</Button>
+              </Link>
+              <Link
+                to={"https://i-shop-dan-ece-v2.vercel.app/"}
+                target="_black"
+              >
+                <Button>Ver</Button>
               </Link>
             </CardActions>
           </Card>
