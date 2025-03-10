@@ -5,7 +5,10 @@ import { AiFillFilePdf } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <section id="home" className="grid grid-cols-1 md:grid-cols-8 pt-1 mt-24">
+    <section
+      id="home"
+      className="grid grid-cols-1 md:grid-cols-8 pt-1 mt-20 sm:mt-36"
+    >
       <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col items-center md:items-start gap-2">
