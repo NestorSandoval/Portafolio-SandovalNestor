@@ -34,22 +34,6 @@ const Hero = () => {
             aprender y colaborar en equipo para lograr los objetivos del
             proyecto.
           </p>
-
-          <div className="flex flex-col sm:flex-row items-center gap-4">
-            <button className="w-full sm:w-auto bg-primary text-white py-2 px-8 rounded-xl text-lg sm:text-xl">
-              <a href="https://wa.link/o8ovzm">Contactame</a>
-            </button>
-            <button className="w-full sm:w-auto flex items-center justify-start text-left gap-4 py-2 px-8 rounded-xl text-lg sm:text-xl">
-              <AiFillFilePdf className="bg-black text-white p-4 rounded-full box-content" />
-              <a
-                href="/NESTOR-SANDOVAL CV.pdf"
-                download
-                className="font-bold text-black"
-              >
-                Currículum vitae
-              </a>
-            </button>
-          </div>
         </div>
       </div>
 
