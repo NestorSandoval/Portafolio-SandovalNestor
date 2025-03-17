@@ -127,7 +127,7 @@ export const Projects = () => {
             className="opacity-0 transition-all duration-1000 ease-out"
           >
             <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto en proceso
+              Proyecto terminado
             </div>
             <CardMedia component="img" image="POKEAPI.png" />
             <CardContent>
@@ -161,7 +161,7 @@ export const Projects = () => {
             className="opacity-0 transition-all duration-1000 ease-out"
           >
             <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto en proceso
+              Proyecto terminado
             </div>
             <CardMedia component="img" image="MiniBlog.png" />
             <CardContent>

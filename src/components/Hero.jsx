@@ -1,19 +1,19 @@
 import "animate.css";
 import { RiCheckboxBlankCircleFill } from "react-icons/ri";
 import TrueFocus from "./design-components/TrueFocus";
-import { AiFillFilePdf } from "react-icons/ai";
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="grid grid-cols-1 md:grid-cols-8 pt-1 mt-20 sm:mt-36"
+      className="grid grid-cols-1 md:grid-cols-8 pt-1 mt-0 sm:mt-0 h-screen"
     >
-      <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16">
+      <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16 mt-16">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <h1 className="text-[40px] font-black sm:text-5xl md:text-6xl ">
-              Nestor Sandoval
+            <h1 className="text-[40px] font-black sm:text-5xl md:text-6xl text-center">
+              <span className="">¡Hola! Soy </span>
+              <span className="text-primary">Nestor Sandoval</span>
             </h1>
 
             <div className="text-primary mt-4 md:mt-1">
@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
 
       <div className="md:col-span-3 flex items-center justify-center relative">
-        <div>
+        <div className="hidden md:block">
           <img
             src="LogoP2.png"
             className="w-[250px] sm:w-[300px] md:w-[400px] lg:w-[450px] object-cover md:-mt-28"
@@ -59,11 +59,15 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div
-          className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[230px] 
+
+        {/* Círculo decorativo */}
+        <div className="hidden md:block">
+          <div
+            className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[230px] 
         h-[230px] sm:w-[280px] sm:h-[280px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px]
         bg-white border-[10px] border-primary rounded-full -z-10"
-        ></div>
+          ></div>
+        </div>
       </div>
     </section>
   );
