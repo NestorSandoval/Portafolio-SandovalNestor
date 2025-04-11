@@ -1,61 +1,73 @@
-import LogoWall from "./design-components/LogoWall";
+import { frontendLogos, backendLogos, toolsLogos } from "../constants/skills";
 
 const Skills = () => {
-  const logoImgs = [
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg",
-      altText: "Astro Logo",
-    },
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-      altText: "Next.js Logo",
-    },
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-      altText: "React Logo",
-    },
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-      altText: "JavaScript Logo",
-    },
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-      altText: "TypeScript Logo",
-    },
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
-      altText: "C# Logo",
-    },
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
-      altText: ".Net Logo",
-    },
-    {
-      imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
-      altText: "Vue Logo",
-    },
-  ];
-
   return (
-    <section id="skills">
-      <h1 className="text-[30px] text-center font-black mt-24">HABILIDADES</h1>
-      <div className="mt-16">
-        <LogoWall
-          items={logoImgs}
-          direction="horizontal"
-          size="clamp(8rem, 1rem + 20vmin, 25rem)"
-          duration="20s"
-          bgColor="#060606"
-          bgAccentColor="#FFFF"
-        />
+    <section id="skills" className="p-10">
+      <h1 className="text-[30px] text-center font-black text-black mt-20">
+        HABILIDADES
+      </h1>
+      <div className="p-2 lg:p-10 -mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+          <div className="bg-gradient-to-r from-red-600 via-red-500 to-red-400 p-6 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-semibold text-center text-white mb-6">
+              Frontend
+            </h2>
+            <div className="grid grid-cols-2 gap-6">
+              {frontendLogos.map((logo, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center bg-white bg-opacity-50 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                >
+                  <img
+                    src={logo.imgUrl}
+                    alt={logo.altText}
+                    className="w-16 h-16 mb-4"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-red-600 via-red-500 to-red-400 p-6 rounded-lg shadow-lg  ">
+            <h2 className="text-2xl font-semibold text-center text-white mb-6">
+              Backend
+            </h2>
+            <div className="grid grid-cols-2 gap-6">
+              {backendLogos.map((logo, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center bg-white bg-opacity-50 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                >
+                  <img
+                    src={logo.imgUrl}
+                    alt={logo.altText}
+                    className="w-16 h-16 mb-4"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-red-600 via-red-500 to-red-400 p-6 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-semibold text-center text-white mb-6">
+              Software y herramientas
+            </h2>
+            <div className="grid grid-cols-2 gap-6">
+              {toolsLogos.map((logo, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center bg-white bg-opacity-50 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                >
+                  <img
+                    src={logo.imgUrl}
+                    alt={logo.altText}
+                    className="w-16 h-16 mb-4"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
