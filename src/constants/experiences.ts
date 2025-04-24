@@ -1,7 +1,7 @@
 export const experiences = [
   {
     title: "Desarrollador Jr",
-    company: "Govo Digital",
+    company: "Sistemas aKúbica",
     period: "Marzo 2025 - Actualidad",
     description:
       "Soy responsable del desarrollo de la aplicación web de Govo Digital, centrado en la creación de experiencias de usuario interactivas y escalables.",
