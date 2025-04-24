@@ -106,7 +106,8 @@ const Start = () => {
       ),
 
       label: "Curriculum Vitae",
-      onClick: () => window.open("/NESTOR-SANDOVAL CV.pdf", "_blank"),
+      onClick: () =>
+        window.open("/NESTOR-DANIEL-SANDOVAL-GARVALENA.pdf", "_blank"),
     },
   ];
   return (

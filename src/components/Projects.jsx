@@ -56,9 +56,6 @@ export const Projects = () => {
             ref={(el) => (cardRefs.current[0] = el)}
             className="opacity-0 transition-all duration-1000 ease-out"
           >
-            <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto terminado
-            </div>
             <CardMedia component="img" image="PROYECTO-STAYEASE.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
@@ -82,9 +79,6 @@ export const Projects = () => {
             ref={(el) => (cardRefs.current[1] = el)}
             className="opacity-0 transition-all duration-1000 ease-out"
           >
-            <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto terminado
-            </div>
             <CardMedia component="img" image="PROYECTO-SNAKE.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
@@ -108,9 +102,6 @@ export const Projects = () => {
             ref={(el) => (cardRefs.current[2] = el)}
             className="opacity-0 transition-all duration-1000 ease-out"
           >
-            <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto terminado
-            </div>
             <CardMedia component="img" image="PROYECTO-PAGINACREAR.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
@@ -126,10 +117,7 @@ export const Projects = () => {
             ref={(el) => (cardRefs.current[3] = el)}
             className="opacity-0 transition-all duration-1000 ease-out"
           >
-            <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto terminado
-            </div>
-            <CardMedia component="img" image="POKEAPI.png" />
+            <CardMedia component="img" image="POKE-API.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
                 POKE API
@@ -160,10 +148,7 @@ export const Projects = () => {
             ref={(el) => (cardRefs.current[4] = el)}
             className="opacity-0 transition-all duration-1000 ease-out"
           >
-            <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto terminado
-            </div>
-            <CardMedia component="img" image="MiniBlog.png" />
+            <CardMedia component="img" image="BLOG.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
                 MINI BLOG
@@ -189,11 +174,7 @@ export const Projects = () => {
             ref={(el) => (cardRefs.current[5] = el)}
             className="opacity-0 transition-all duration-1000 ease-out"
           >
-            <div className="absolute top-2 left-2 bg-red-600 font-semibold text-white text-sm px-3 py-1 rounded-full shadow-lg">
-              Proyecto en proceso
-            </div>
-
-            <CardMedia component="img" image="IshopDanImg.png" />
+            <CardMedia component="img" image="PAGE-NATA.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
                 ISHOP DANECE
