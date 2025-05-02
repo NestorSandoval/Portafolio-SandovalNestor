@@ -198,6 +198,21 @@ export const Projects = () => {
               </Link>
             </CardActions>
           </Card>
+
+          <Card
+            ref={(el) => (cardRefs.current[6] = el)}
+            className="opacity-0 transition-all duration-1000 ease-out"
+          >
+            <CardMedia component="img" image="PROYECTO-CEAR.png" />
+            <CardContent>
+              <Typography gutterBottom variant="h6">
+                HOBBIE CEAR
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                NEXTJS - NESTJS - TAILWIND CSS - SHADCN/UI
+              </Typography>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
