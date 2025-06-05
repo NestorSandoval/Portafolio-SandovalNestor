@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="md:col-span-3 flex items-center justify-center relative">
+      <div className="md:col-span-3 flex items-center justify-center relative mt-20">
         <div className="hidden md:block">
           <img
             src="LogoP2.png"
