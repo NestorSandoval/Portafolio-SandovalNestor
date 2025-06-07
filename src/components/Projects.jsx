@@ -42,16 +42,16 @@ export const Projects = () => {
 
   return (
     <section id="projects" className="pt-1">
-      <div className="text-[30px] text-center font-black py-10 mt-16">
+      <div className="text-[30px] text-center font-black py-10 mt-16 px-1">
         <h1
           ref={titleRef}
           className="opacity-0 transition-all duration-1000 ease-out"
         >
-          PROYECTOS PERSONALES
+          PROYECTOS
         </h1>
       </div>
       <div className="flex items-center justify-center container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 px-10">
           <Card
             ref={(el) => (cardRefs.current[0] = el)}
             className="opacity-0 transition-all duration-1000 ease-out"
