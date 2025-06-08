@@ -1,10 +1,10 @@
 const Certificates = () => {
   const certificates = [
-    { src: "Certificado ShadcnUI.png", title: "Shadcn UI" },
     { src: "Certificado JS.png", title: "JavaScript" },
     { src: "diploma-react-router.png", title: "React Router" },
     { src: "diploma-manejo-de-estado.png", title: "Manejo de estado" },
     { src: "diploma-react.png", title: "React" },
+    { src: "Certificado .NET.png", title: "ASP.NET" },
   ];
 
   return (
