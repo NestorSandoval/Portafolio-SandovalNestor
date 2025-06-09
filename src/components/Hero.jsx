@@ -10,8 +10,8 @@ const Hero = () => {
     >
       <div className="md:col-span-5 flex items-center justify-center p-8 md:p-16 mt-16">
         <div className="flex flex-col gap-10">
-          <div className="flex flex-col items-center md:items-start gap-2">
-            <h1 className="text-[40px] font-black sm:text-5xl md:text-6xl text-center">
+          <div className="flex flex-col items-center md:items-start sm:items-start lg:items-start gap-2">
+            <h1 className="text-[40px] font-black sm:text-5xl md:text-6xl text-center sm:text-start lg:text-start">
               <span className="">¡Hola! Soy </span>
               <span className="text-primary">Nestor Sandoval</span>
             </h1>
