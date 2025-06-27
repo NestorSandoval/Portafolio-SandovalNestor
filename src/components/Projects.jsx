@@ -206,12 +206,17 @@ export const Projects = () => {
             <CardMedia component="img" image="PROYECTO-CEAR.png" />
             <CardContent>
               <Typography gutterBottom variant="h6">
-                HOBBIE CEAR
+                CEAR PROFESIONAL
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 NEXTJS - NESTJS - TAILWIND CSS - SHADCN/UI
               </Typography>
             </CardContent>
+            <CardActions>
+              <Link to={"https://cear-uanl.vercel.app/"} target="_black">
+                <Button>Ver</Button>
+              </Link>
+            </CardActions>
           </Card>
         </div>
       </div>
